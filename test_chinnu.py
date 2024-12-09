@@ -7,8 +7,8 @@ def test_first_case():
 
 @pytest.fixture
 def user_inputs():
-    string_1 = input("Enter string_1: ")
-    string_2 = input("Enter string_2: ")
+    string_1 = input("string_1: ")
+    string_2 = input("string_2: ")
     return string_1, string_2
 
 def test_string_concatination(user_inputs):
