@@ -1,5 +1,5 @@
 import tables_function as chinnu
-import re 
+import re
 
 opt = chinnu.print_tables(10)
 l =[]
